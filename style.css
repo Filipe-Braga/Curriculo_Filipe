@@ -1,0 +1,94 @@
+*{
+  padding:0;
+  margin:0;
+  list-style: upper-roman;
+  vertical-align:baseline;
+  border:0;
+}
+
+section{
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 500px;
+  max-height: 500px;
+  margin-top:100px; 
+  padding: 20px;
+/*   background-image: url("https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif"); */
+  
+}
+
+body{
+  font-family:"Times New Roman", sans-serif;
+  text-align: center;
+  color: white;
+  background-color:#49495c;
+  margin:100px;
+  margin-bottom:200px;
+}
+
+h2{
+  background-color:gray;
+  box-shadow: 60px 60px 30px #313140;
+  padding:40px;
+  text-align:start;
+  transition-duration:0.4s;
+}
+
+h2:hover{
+  background-color:#9e9e98;
+}
+
+.tex{
+  text-shadow: -1px 1px 0 #313140, 1px 1px 0#313140, 1px -1px 0 #313140, -1px -1px 0 #313140;
+  font-size:25px;
+  display:none;
+}
+
+.textimg{
+  font-size:15px;
+}
+
+img{
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  max-width:400px;
+  box-shadow: 60px 60px 30px #313140;
+  border-radius:10%;
+}
+
+.topicImg{
+  display:none;
+}
+
+.int{
+  text-shadow: -1px 1px 0 #313140, 1px 1px 0#313140, 1px -1px 0 #313140, -1px -1px 0 #313140;
+  font-size:25px;
+}
+
+ul{
+  display:inline;
+}
+
+ul li {display:inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display:block;}
+ul li a{
+  text-decoration:none;
+  color:#f0f018
+}
+ul li ul{
+  color:white;
+  text-decoration:none;
+  position: absolute;
+  width: 300px;
+  display: none;
+}
+ul li ul li {
+  padding:10px;
+  background: #555; 
+  display: block;
+}
+ul li ul li:hover {
+  background: #666;
+}
